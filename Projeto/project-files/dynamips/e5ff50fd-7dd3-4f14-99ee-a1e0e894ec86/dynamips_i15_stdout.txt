@@ -1,0 +1,18 @@
+Cisco Router Simulation Platform (version 0.2.21-amd64/Linux stable)
+Copyright (c) 2005-2011 Christophe Fillot.
+Build date: Jul 12 2019 11:00:00
+
+Log file: writing to dynamips_i15_log.txt
+ILT: loaded table "mips64j" from cache.
+ILT: loaded table "mips64e" from cache.
+ILT: loaded table "ppc32j" from cache.
+ILT: loaded table "ppc32e" from cache.
+Hypervisor TCP control server started (IP localhost port 54191).
+NIO udp-c7d48245-275d-41cf-9b73-f8d8062f21bd: capturing to file '/home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/captures/Switch3_Ethernet3_to_PC1_Ethernet0.pcap'
+NIO udp-c7d48245-275d-41cf-9b73-f8d8062f21bd: ending packet capture.
+NIO udp-51db66c6-33da-490e-b43f-4e5afeac476f: capturing to file '/home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/captures/ESW4_FastEthernet11_to_Switch3_Ethernet1.pcap'
+NIO udp-51db66c6-33da-490e-b43f-4e5afeac476f: ending packet capture.
+Hypervisor: closing control sockets.
+Hypervisor: closing remote client connections.
+Shutdown in progress...
+Shutdown completed.

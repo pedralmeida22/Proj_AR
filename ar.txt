@@ -1,0 +1,22 @@
+
+Aveiro
+core - 10.8.80.0/24 2001:A:A:0850::/64
+
+-----------------------------------
+ligações ponto a ponto:
+sw1 - sw2 : 10.8.80.0/30 || 2001:A:A:0850::/126 // esta nao é preciso, feito com vlan de interligação 
+
+sw1 - PT1 : 10.8.80.4/30 || 2001:A:A:0850::4/126 (feito)
+sw1 - PT2 : 10.8.80.8/30 || 2001:A:A:0850::8/126 (feito)
+sw2 - PT1 : 10.8.80.12/30 || 2001:A:A:0850::C/126 (feito)
+sw2 - PT2 : 10.8.80.16/30 || 2001:A:A:0850::10/126 (feito)
+PT1 - PT2 : 10.8.80.20/30 || 2001:A:A:0850::14/126 (feito)
+------------------------------------
+
+vlans:
+Para dentro do edifício passa tudo menos a vlan de interligação
+entre core e switch l3 passa e2e, vlan de interligaçao e vlan1
+
+switches do core passam vlan 1, wifi (e2e) e interligação:
+vlan de interligação 112 : 10.1.16.0/24 || 2001:A:A:0110::/64
+vlan (gestão) 1 

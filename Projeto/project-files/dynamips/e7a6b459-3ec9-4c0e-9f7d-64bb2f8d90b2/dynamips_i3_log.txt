@@ -1,0 +1,102 @@
+Jun 19 12:47:28.450 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 19 12:47:28.450 HYPERVISOR: Started on IP = localhost, TCP port = 48417.
+Jun 19 12:47:28.460 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 12:47:28.461 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips 
+Jun 19 12:47:28.461 GENERAL: working_dir=/home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips
+Jun 19 12:47:28.461 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/4749db59-6030-4dbf-b2aa-9168b2cc0c73 
+Jun 19 12:47:28.461 GENERAL: working_dir=/home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/4749db59-6030-4dbf-b2aa-9168b2cc0c73
+Jun 19 12:47:28.461 HYPERVISOR: exec_cmd: vm create R2 2 c7200 
+Jun 19 12:47:28.461 VM: VM R2 created.
+Jun 19 12:47:28.461 HYPERVISOR: exec_cmd: vm set_con_tcp_port R2 5002 
+Jun 19 12:47:28.462 HYPERVISOR: exec_cmd: c7200 get_mac_addr R2 
+Jun 19 12:47:28.462 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:28.462 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-FE 
+Jun 19 12:47:28.462 HYPERVISOR: exec_cmd: vm set_disk0 R2 0 
+Jun 19 12:47:28.462 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:28.462 HYPERVISOR: exec_cmd: vm set_idle_pc R2 0x60608040 
+Jun 19 12:47:28.463 HYPERVISOR: exec_cmd: vm set_ios R2 /home/pedroalmeida/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 12:47:28.463 HYPERVISOR: exec_cmd: c7200 set_mac_addr R2 ca02.2074.0000 
+Jun 19 12:47:28.463 HYPERVISOR: exec_cmd: vm set_nvram R2 512 
+Jun 19 12:47:28.464 HYPERVISOR: exec_cmd: vm set_ram R2 512 
+Jun 19 12:47:28.464 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:28.464 HYPERVISOR: exec_cmd: vm slot_remove_binding R2 0 0 
+Jun 19 12:47:28.464 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:28.464 HYPERVISOR: exec_cmd: vm slot_add_binding R2 0 0 C7200-IO-2FE 
+Jun 19 12:47:28.464 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:28.465 HYPERVISOR: exec_cmd: vm slot_add_binding R2 1 0 PA-2FE-TX 
+Jun 19 12:47:29.380 HYPERVISOR: exec_cmd: nio create_udp udp-22a313ca-81ca-4aa7-9c19-df3419fbc9c1 10004 127.0.0.1 10005 
+Jun 19 12:47:29.600 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 0 udp-22a313ca-81ca-4aa7-9c19-df3419fbc9c1 
+Jun 19 12:47:29.601 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:31.398 HYPERVISOR: exec_cmd: nio create_udp udp-cdfb2263-e168-4cec-b4d7-2c09db340146 10030 127.0.0.1 10031 
+Jun 19 12:47:31.399 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 0 1 udp-cdfb2263-e168-4cec-b4d7-2c09db340146 
+Jun 19 12:47:31.399 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:31.940 HYPERVISOR: exec_cmd: nio create_udp udp-f6f29b4c-de7d-4a1a-91c4-0365e71f8be2 10062 127.0.0.1 10063 
+Jun 19 12:47:31.941 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 0 udp-f6f29b4c-de7d-4a1a-91c4-0365e71f8be2 
+Jun 19 12:47:31.941 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 12:47:32.004 HYPERVISOR: exec_cmd: nio create_udp udp-132bfe59-4239-4149-aadc-9443215a188d 10068 127.0.0.1 10069 
+Jun 19 12:47:32.005 HYPERVISOR: exec_cmd: vm slot_add_nio_binding R2 1 1 udp-132bfe59-4239-4149-aadc-9443215a188d 
+Jun 19 12:47:32.005 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 17:33:56.311 HYPERVISOR: exec_cmd: vm set_ghost_status R2 2 
+Jun 19 17:33:56.313 HYPERVISOR: exec_cmd: vm set_ghost_file R2 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 19 17:33:56.314 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 17:33:56.316 HYPERVISOR: exec_cmd: vm set_config R2 configs/i2_startup-config.cfg 
+Jun 19 17:33:56.317 HYPERVISOR: exec_cmd: vm start R2 
+Jun 19 17:34:26.550 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 19 17:35:26.554 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 19 18:18:00.073 HYPERVISOR: exec_cmd: vm set_ios R2 /home/pedroalmeida/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 18:34:39.161 HYPERVISOR: exec_cmd: vm get_status R2 
+Jun 19 18:34:39.164 HYPERVISOR: exec_cmd: vm stop R2 
+Jun 19 18:34:39.303 VM: VM R2 shutdown.
+Jun 19 18:34:39.303 HYPERVISOR: exec_cmd: vm extract_config R2 
+Jun 19 18:35:38.187 HYPERVISOR: exec_cmd: vm set_ios R2 /home/pedroalmeida/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 18:35:38.188 HYPERVISOR: exec_cmd: vm rename R2 PT2 
+Jun 19 18:35:38.296 HYPERVISOR: exec_cmd: vm set_ios PT2 /home/pedroalmeida/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 18:35:51.644 HYPERVISOR: exec_cmd: vm set_ios PT2 /home/pedroalmeida/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 18:35:57.975 HYPERVISOR: exec_cmd: vm set_ghost_status PT2 2 
+Jun 19 18:35:57.977 HYPERVISOR: exec_cmd: vm set_ghost_file PT2 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 19 18:35:57.980 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 18:35:57.981 HYPERVISOR: exec_cmd: vm set_config PT2 configs/i2_startup-config.cfg 
+Jun 19 18:35:57.983 HYPERVISOR: exec_cmd: vm start PT2 
+Jun 19 18:44:53.705 HYPERVISOR: exec_cmd: vm set_ios PT2 /home/pedroalmeida/GNS3/images/IOS/c7200-adventerprisek9-mz.151-4.M2.image 
+Jun 19 19:12:28.353 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 19:14:58.364 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 19:15:57.653 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 19:15:57.655 HYPERVISOR: exec_cmd: vm stop PT2 
+Jun 19 19:15:57.795 VM: VM PT2 shutdown.
+Jun 19 19:15:57.796 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 19:17:12.461 HYPERVISOR: exec_cmd: vm set_ghost_status PT2 2 
+Jun 19 19:17:12.465 HYPERVISOR: exec_cmd: vm set_ghost_file PT2 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 19 19:17:12.467 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 19:17:12.470 HYPERVISOR: exec_cmd: vm set_config PT2 configs/i2_startup-config.cfg configs/i2_private-config.cfg 
+Jun 19 19:17:12.473 HYPERVISOR: exec_cmd: vm start PT2 
+Jun 19 19:57:46.326 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 19:57:46.327 HYPERVISOR: exec_cmd: vm stop PT2 
+Jun 19 19:57:46.474 VM: VM PT2 shutdown.
+Jun 19 19:57:46.475 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 20:01:26.249 HYPERVISOR: exec_cmd: vm set_ghost_status PT2 2 
+Jun 19 20:01:26.251 HYPERVISOR: exec_cmd: vm set_ghost_file PT2 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 19 20:01:26.251 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 20:01:26.252 HYPERVISOR: exec_cmd: vm set_config PT2 configs/i2_startup-config.cfg configs/i2_private-config.cfg 
+Jun 19 20:01:26.252 HYPERVISOR: exec_cmd: vm start PT2 
+Jun 19 20:05:07.118 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 20:05:07.120 HYPERVISOR: exec_cmd: vm stop PT2 
+Jun 19 20:05:07.261 VM: VM PT2 shutdown.
+Jun 19 20:05:07.262 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 20:58:36.715 HYPERVISOR: exec_cmd: vm set_ghost_status PT2 2 
+Jun 19 20:58:36.717 HYPERVISOR: exec_cmd: vm set_ghost_file PT2 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c7200-adventerprisek9-mz.151-4.M2.image-512.ghost 
+Jun 19 20:58:36.718 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 20:58:36.720 HYPERVISOR: exec_cmd: vm set_config PT2 configs/i2_startup-config.cfg configs/i2_private-config.cfg 
+Jun 19 20:58:36.721 HYPERVISOR: exec_cmd: vm start PT2 
+Jun 19 22:39:07.639 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 22:39:07.643 HYPERVISOR: exec_cmd: vm stop PT2 
+Jun 19 22:39:07.790 VM: VM PT2 shutdown.
+Jun 19 22:39:07.790 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 22:39:20.280 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 22:39:20.281 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 22:39:20.399 HYPERVISOR: exec_cmd: vm get_status PT2 
+Jun 19 22:39:20.399 HYPERVISOR: exec_cmd: vm extract_config PT2 
+Jun 19 22:39:20.400 HYPERVISOR: exec_cmd: vm delete PT2 
+Jun 19 22:39:20.400 VM: VM PT2 destroyed.
+Jun 19 22:39:20.401 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 19 22:39:20.865 HYPERVISOR: Stopped.
+Jun 19 22:39:20.865 GENERAL: reset done.

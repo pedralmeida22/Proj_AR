@@ -1,9 +1,2 @@
-# This the configuration for VG1
-#
-# Uncomment the following line to enable DHCP
-# dhcp
-# or the line below to manually setup an IP address and subnet mask
-# ip 192.168.1.1 255.0.0.0
-#
-
 set pcname VG1
+ip 10.2.81.1 10.2.81.254 24

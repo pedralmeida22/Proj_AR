@@ -1,0 +1,85 @@
+Jun 19 12:47:28.762 HYPERVISOR: Release 0.2.21-amd64/Linux (tag 2019071212)
+Jun 19 12:47:28.762 HYPERVISOR: Started on IP = localhost, TCP port = 45483.
+Jun 19 12:47:28.775 HYPERVISOR: exec_cmd: hypervisor version 
+Jun 19 12:47:28.776 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips 
+Jun 19 12:47:28.776 GENERAL: working_dir=/home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips
+Jun 19 12:47:28.776 HYPERVISOR: exec_cmd: hypervisor working_dir /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/db88c36b-05a5-4afc-a218-f956fd01210a 
+Jun 19 12:47:28.776 GENERAL: working_dir=/home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/db88c36b-05a5-4afc-a218-f956fd01210a
+Jun 19 12:47:28.777 HYPERVISOR: exec_cmd: vm create ESW4 10 c3725 
+Jun 19 12:47:28.777 VM: VM ESW4 created.
+Jun 19 12:47:28.778 HYPERVISOR: exec_cmd: vm set_con_tcp_port ESW4 5016 
+Jun 19 12:47:28.778 HYPERVISOR: exec_cmd: c3725 get_mac_addr ESW4 
+Jun 19 12:47:28.779 HYPERVISOR: exec_cmd: vm set_disk0 ESW4 1 
+Jun 19 12:47:28.780 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 12:47:28.781 HYPERVISOR: exec_cmd: vm set_idle_pc ESW4 0x60a6a1e0 
+Jun 19 12:47:28.782 HYPERVISOR: exec_cmd: vm set_ios ESW4 /home/pedroalmeida/GNS3/images/IOS/c3725-advipservicesk9-mz.124-21.image 
+Jun 19 12:47:28.783 HYPERVISOR: exec_cmd: c3725 set_mac_addr ESW4 c20a.22f3.0000 
+Jun 19 12:47:28.784 HYPERVISOR: exec_cmd: vm set_nvram ESW4 256 
+Jun 19 12:47:28.785 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 12:47:28.785 HYPERVISOR: exec_cmd: vm slot_add_binding ESW4 1 0 NM-16ESW 
+Jun 19 12:47:32.310 HYPERVISOR: exec_cmd: nio create_udp udp-e7345ed9-bca8-4ded-a8d8-50bd798b38f6 10076 127.0.0.1 10077 
+Jun 19 12:47:32.532 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW4 0 0 udp-e7345ed9-bca8-4ded-a8d8-50bd798b38f6 
+Jun 19 12:47:32.533 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 12:47:33.249 HYPERVISOR: exec_cmd: nio create_udp udp-d7c4c26a-c52a-429e-ae35-4ef8144e36c7 10094 127.0.0.1 10095 
+Jun 19 12:47:33.250 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW4 0 1 udp-d7c4c26a-c52a-429e-ae35-4ef8144e36c7 
+Jun 19 12:47:33.250 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 12:47:33.508 HYPERVISOR: exec_cmd: nio create_udp udp-413074db-c43c-4bfc-b0e9-9f50847f7fb4 10118 127.0.0.1 10119 
+Jun 19 12:47:33.509 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW4 1 0 udp-413074db-c43c-4bfc-b0e9-9f50847f7fb4 
+Jun 19 12:47:33.509 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 12:47:33.792 HYPERVISOR: exec_cmd: nio create_udp udp-36763a0f-5255-46ae-a506-24b581954686 10138 127.0.0.1 10139 
+Jun 19 12:47:33.794 HYPERVISOR: exec_cmd: vm slot_add_nio_binding ESW4 1 1 udp-36763a0f-5255-46ae-a506-24b581954686 
+Jun 19 12:47:33.794 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 17:33:59.794 HYPERVISOR: exec_cmd: vm set_ghost_status ESW4 2 
+Jun 19 17:33:59.798 HYPERVISOR: exec_cmd: vm set_ghost_file ESW4 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 19 17:33:59.801 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 17:33:59.805 HYPERVISOR: exec_cmd: vm set_config ESW4 configs/i10_startup-config.cfg 
+Jun 19 17:33:59.806 HYPERVISOR: exec_cmd: vm start ESW4 
+Jun 19 18:34:39.899 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 18:34:39.899 HYPERVISOR: exec_cmd: vm stop ESW4 
+Jun 19 18:34:40.038 VM: VM ESW4 shutdown.
+Jun 19 18:34:40.039 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 18:35:58.768 HYPERVISOR: exec_cmd: vm set_ghost_status ESW4 2 
+Jun 19 18:35:58.768 HYPERVISOR: exec_cmd: vm set_ghost_file ESW4 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 19 18:35:58.768 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 18:35:58.769 HYPERVISOR: exec_cmd: vm set_config ESW4 configs/i10_startup-config.cfg 
+Jun 19 18:35:58.769 HYPERVISOR: exec_cmd: vm start ESW4 
+Jun 19 19:15:58.151 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 19:15:58.151 HYPERVISOR: exec_cmd: vm stop ESW4 
+Jun 19 19:15:58.280 VM: VM ESW4 shutdown.
+Jun 19 19:15:58.281 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 19:17:13.253 HYPERVISOR: exec_cmd: vm set_ghost_status ESW4 2 
+Jun 19 19:17:13.254 HYPERVISOR: exec_cmd: vm set_ghost_file ESW4 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 19 19:17:13.254 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 19:17:13.254 HYPERVISOR: exec_cmd: vm set_config ESW4 configs/i10_startup-config.cfg 
+Jun 19 19:17:13.255 HYPERVISOR: exec_cmd: vm start ESW4 
+Jun 19 19:57:46.925 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 19:57:46.925 HYPERVISOR: exec_cmd: vm stop ESW4 
+Jun 19 19:57:47.058 VM: VM ESW4 shutdown.
+Jun 19 19:57:47.058 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 20:01:27.010 HYPERVISOR: exec_cmd: vm set_ghost_status ESW4 2 
+Jun 19 20:01:27.011 HYPERVISOR: exec_cmd: vm set_ghost_file ESW4 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 19 20:01:27.012 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 20:01:27.013 HYPERVISOR: exec_cmd: vm set_config ESW4 configs/i10_startup-config.cfg 
+Jun 19 20:01:27.013 HYPERVISOR: exec_cmd: vm start ESW4 
+Jun 19 20:05:07.653 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 20:05:07.653 HYPERVISOR: exec_cmd: vm stop ESW4 
+Jun 19 20:05:07.794 VM: VM ESW4 shutdown.
+Jun 19 20:05:07.794 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 20:58:37.522 HYPERVISOR: exec_cmd: vm set_ghost_status ESW4 2 
+Jun 19 20:58:37.523 HYPERVISOR: exec_cmd: vm set_ghost_file ESW4 /home/pedroalmeida/GNS3/projects/AR/Projeto/project-files/dynamips/c3725-advipservicesk9-mz.124-21.image-128.ghost 
+Jun 19 20:58:37.524 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 20:58:37.527 HYPERVISOR: exec_cmd: vm set_config ESW4 configs/i10_startup-config.cfg 
+Jun 19 20:58:37.527 HYPERVISOR: exec_cmd: vm start ESW4 
+Jun 19 22:39:08.382 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 22:39:08.382 HYPERVISOR: exec_cmd: vm stop ESW4 
+Jun 19 22:39:08.537 VM: VM ESW4 shutdown.
+Jun 19 22:39:08.538 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 22:39:20.318 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 22:39:20.319 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 22:39:20.749 HYPERVISOR: exec_cmd: vm get_status ESW4 
+Jun 19 22:39:20.749 HYPERVISOR: exec_cmd: vm extract_config ESW4 
+Jun 19 22:39:20.751 HYPERVISOR: exec_cmd: vm delete ESW4 
+Jun 19 22:39:20.751 VM: VM ESW4 destroyed.
+Jun 19 22:39:20.752 HYPERVISOR: exec_cmd: hypervisor stop 
+Jun 19 22:39:21.063 HYPERVISOR: Stopped.
+Jun 19 22:39:21.063 GENERAL: reset done.
