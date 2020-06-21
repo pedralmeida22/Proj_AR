@@ -22,7 +22,7 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"683\" width=\"336\"><rect fill=\"#ffffff\" fill-opacity=\"1.0\" height=\"683\" stroke=\"#000000\" stroke-width=\"2\" width=\"336\" /></svg>",
-                "x": 345,
+                "x": 353,
                 "y": -311,
                 "z": 0
             },
@@ -49,8 +49,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"45\" width=\"60\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"Garuda\" font-size=\"14.0\" font-weight=\"bold\">Aveiro</text></svg>",
-                "x": -105,
-                "y": 408,
+                "x": -110,
+                "y": 382,
                 "z": 2
             },
             {
@@ -58,8 +58,8 @@
                 "locked": false,
                 "rotation": 0,
                 "svg": "<svg height=\"45\" width=\"66\"><text fill=\"#000000\" fill-opacity=\"1.0\" font-family=\"Garuda\" font-size=\"14.0\" font-weight=\"bold\">Boston</text></svg>",
-                "x": 500,
-                "y": 460,
+                "x": 477,
+                "y": 378,
                 "z": 2
             },
             {
@@ -198,8 +198,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/0",
-                            "x": -6,
-                            "y": 22
+                            "x": -47,
+                            "y": 2
                         },
                         "node_id": "d1f1d53e-4e07-4643-90b4-f42b46363f9d",
                         "port_number": 0
@@ -403,8 +403,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f0/1",
-                            "x": -5,
-                            "y": 33
+                            "x": -25,
+                            "y": 40
                         },
                         "node_id": "d1f1d53e-4e07-4643-90b4-f42b46363f9d",
                         "port_number": 1
@@ -806,8 +806,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 50,
-                            "y": -14
+                            "x": 8,
+                            "y": -28
                         },
                         "node_id": "e7a6b459-3ec9-4c0e-9f7d-64bb2f8d90b2",
                         "port_number": 0
@@ -837,8 +837,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 13,
-                            "y": -13
+                            "x": 25,
+                            "y": -26
                         },
                         "node_id": "d1f1d53e-4e07-4643-90b4-f42b46363f9d",
                         "port_number": 0
@@ -1240,8 +1240,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/0",
-                            "x": 13,
-                            "y": -14
+                            "x": -19,
+                            "y": -21
                         },
                         "node_id": "e5ff50fd-7dd3-4f14-99ee-a1e0e894ec86",
                         "port_number": 0
@@ -1283,8 +1283,8 @@
                             "rotation": 0,
                             "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                             "text": "f1/1",
-                            "x": 44,
-                            "y": -11
+                            "x": 43,
+                            "y": -19
                         },
                         "node_id": "e5ff50fd-7dd3-4f14-99ee-a1e0e894ec86",
                         "port_number": 1
@@ -1740,12 +1740,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R3",
-                    "x": 19,
-                    "y": -25
+                    "text": "US1",
+                    "x": -37,
+                    "y": 2
                 },
                 "locked": false,
-                "name": "R3",
+                "name": "US1",
                 "node_id": "e7a6b459-3ec9-4c0e-9f7d-64bb2f8d90b2",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1795,7 +1795,7 @@
                 "template_id": "66f32b42-4de2-4c60-a3ef-5290d72e4549",
                 "width": 66,
                 "x": 399,
-                "y": 249,
+                "y": 246,
                 "z": 1
             },
             {
@@ -1809,12 +1809,12 @@
                 "label": {
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
-                    "text": "R4",
-                    "x": 19,
-                    "y": -25
+                    "text": "US2",
+                    "x": 41,
+                    "y": 33
                 },
                 "locked": false,
-                "name": "R4",
+                "name": "US2",
                 "node_id": "d1f1d53e-4e07-4643-90b4-f42b46363f9d",
                 "node_type": "dynamips",
                 "port_name_format": "Ethernet{0}",
@@ -1863,8 +1863,8 @@
                 "symbol": ":/symbols/router.svg",
                 "template_id": "66f32b42-4de2-4c60-a3ef-5290d72e4549",
                 "width": 66,
-                "x": 600,
-                "y": 247,
+                "x": 602,
+                "y": 248,
                 "z": 1
             },
             {
@@ -3039,8 +3039,8 @@
                     "rotation": 0,
                     "style": "font-family: TypeWriter;font-size: 10.0;font-weight: bold;fill: #000000;fill-opacity: 1.0;",
                     "text": "ESW7",
-                    "x": 0,
-                    "y": -25
+                    "x": -1,
+                    "y": 27
                 },
                 "locked": false,
                 "name": "ESW7",
